@@ -1,0 +1,131 @@
+@import url(./reset.css);
+@import url(./font.css);
+
+html{
+  font-family: 'Pretendard';
+}
+
+body{
+font-family: 'Pretendard-Regular';
+width: 100%;
+}
+
+.a11yHidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  clip-path: circle(0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.header{
+  height: 100%;
+
+  background-color:  #1B1B1B;
+}
+
+.nav-bar{
+  height: 100%;
+  position: relative;
+}
+
+.nav-bar img {
+  position: absolute;
+  top: 36px;
+  left: 320px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content:end;
+  color: #FFFFFF;
+  margin-right: 320px;
+}
+
+.main-menu__item button { 
+  font-size: 18px;
+  padding: 37px 0;
+  margin-right: 38px;
+}
+
+.main-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  background: url(/assets/mic.png) no-repeat;
+  background-size: cover;
+}
+
+.text-box{
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  color: #FFFFFF;
+}
+
+.text-item{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: center;
+}
+
+.text-box a{
+  background: #06C755;
+  margin: 24px auto;
+  width: 180px;
+  text-align: center;
+  border-radius: 75px;
+}
+
+.text-box button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 20px 16px 20px;
+}
+
+.logo-box{
+  background-color: #F1F1F5;
+  text-align: center;
+}
+
+.logo-box img{
+  margin: 41px auto;
+  margin-right: 92px;
+}
+
+/* 모바일 화면 구성 */
+@media(max-width:360px){
+  body{
+    width: 360px;
+  }
+
+  .nav-bar img {
+    position: absolute;
+    top: 32px;
+    left: 20px;
+  }
+  
+ .main-menu{
+  display: none;
+ }
+
+ .main-banner{
+  width: auto;
+  background: url(/assets/mic.png) no-repeat ;
+}
+
+.logo-box img{
+  width: 109px;
+  /* margin: 41px auto; */
+  margin-right: 25px; 
+}
+
+
+}

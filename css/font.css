@@ -1,0 +1,145 @@
+/* 미관상 사용하지 않음 */
+/* font-display: swap;  */
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  src: url(./font/NotoSansKR-Light.otf) format('opentype'),
+       url(./font/NotoSansKR-Light.woff2) format('woff2'),
+       url(./font/NotoSansKR-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src: url(./font/NotoSansKR-Regular.woff2);
+  src: url(./font/NotoSansKR-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./font/NotoSansKR-Regular.woff2) format('woff2'),
+       url(./font/NotoSansKR-Regular.woff) format('woff'),
+       url(./font/NotoSansKR-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src: url(./font/NotoSansKR-Medium.woff2);
+  src: url(./font/NotoSansKR-Medium.eot?#iefix) format('embedded-opentype'),
+       url(./font/NotoSansKR-Medium.woff2) format('woff2'),
+       url(./font/NotoSansKR-Medium.woff) format('woff'),
+       url(./font/NotoSansKR-Medium.ttf) format('truetype');
+  }
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  src: url(./font/NotoSansKR-Bold.woff2);
+  src: url(./font/NotoSansKR-Bold.eot?#iefix) format('embedded-opentype'),
+       url(./font/NotoSansKR-Bold.woff2) format('woff2'),
+       url(./font/NotoSansKR-Bold.woff) format('woff'),
+       url(./font/NotoSansKR-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 900;
+  src: url(./font/NotoSansKR-Black.woff2);
+  src: url(./font/NotoSansKR-Black.eot?#iefix) format('embedded-opentype'),
+       url(./font/NotoSansKR-Black.woff2) format('woff2'),
+       url(./font/NotoSansKR-Black.woff) format('woff'),
+       url(./font/NotoSansKR-Black.ttf) format('truetype');
+  }
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url(./font/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url(./font/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url(./font/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url(./font/Roboto-Bold.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Binggrae Melona';
+  font-weight: 700;
+  src: url(./font/BinggraeMelona-Bold.otf) format('opentype'),
+       url(./font/BinggraeMelona-Bold.ttf) format('truetype');
+}
+
+
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Pretendard Black'), url('./woff2/Pretendard-Black.woff2') format('woff2'), url('./woff/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url('./woff2/Pretendard-ExtraBold.woff2') format('woff2'), url('./woff/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url('./woff2/Pretendard-Bold.woff2') format('woff2'), url('./woff/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Pretendard SemiBold'), url('./woff2/Pretendard-SemiBold.woff2') format('woff2'), url('./woff/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url('./woff2/Pretendard-Medium.woff2') format('woff2'), url('./woff/Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'), url('./woff2/Pretendard-Regular.woff2') format('woff2'), url('./woff/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Pretendard Light'), url('./woff2/Pretendard-Light.woff2') format('woff2'), url('./woff/Pretendard-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 200;
+	font-display: swap;
+	src: local('Pretendard ExtraLight'), url('./woff2/Pretendard-ExtraLight.woff2') format('woff2'), url('./woff/Pretendard-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Pretendard Thin'), url('./woff2/Pretendard-Thin.woff2') format('woff2'), url('./woff/Pretendard-Thin.woff') format('woff');
+}
